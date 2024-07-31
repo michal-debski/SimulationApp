@@ -28,6 +28,7 @@ To create application I used below technologies:
    ```
    B) Run the simulation by using post request with url for example:
      http://localhost:8080/simulation-app/api/simulations/1/run
+
    C) Look at the result in pgAdmin using query:
      ```
      "SELECT * FROM simulation_result"
