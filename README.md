@@ -12,7 +12,8 @@ To create application I used below technologies:
 ## How to open this app:
 1. Clone this repository into your local desktop
 2. Create database named "simulation" in pgAdmin
-4. Test application in Postman by: 
+4. Test application in Postman by:
+
    A) Creating a simulation by using post request with JSON for example:
    ```
        {
