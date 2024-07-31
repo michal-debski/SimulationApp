@@ -33,7 +33,7 @@ To create application I used below technologies:
    C) Look at the result in pgAdmin using query:
      ```
      "SELECT * FROM simulation_result"
-       ```
+       
 As well you can:
  - update the input data by using the PUT Request in Postman on url:
   http://localhost:8080/simulation-app/api/simulations/1
