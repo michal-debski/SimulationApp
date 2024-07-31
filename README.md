@@ -14,6 +14,7 @@ To create application I used below technologies:
 2. Create database named "simulation" in pgAdmin
 4. Test application in Postman BY:
    A) Creating a simulation by using post request with JSON for example:
+   ```
        {
         "name": "Simulation",
         "populationSize": 10000,
@@ -24,6 +25,7 @@ To create application I used below technologies:
         "deathDays": 7,
         "simulationDays": 100
       }
+   ```
    B) Run the simulation by using post request with url for example:
      http://localhost:8080/simulation-app/api/simulations/1/run
    C) Look at the result in pgAdmin using query:
